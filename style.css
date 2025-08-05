@@ -44,6 +44,8 @@ main{
 h3{
     color: var(--Green-300);
     font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 
@@ -68,6 +70,13 @@ figure{
     align-items: center;
     left: 42%;
     bottom: -12%;
+    transition: box-shadow 0.2s ease;
+}
+
+/* ACTIVE STATES */
+figure:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px var(--Green-300);
 }
 @media screen and (min-width:768px){
     main{
